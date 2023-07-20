@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Desafio2 {
+public class Desafio3 {
 
     public static void main(String[] args) {
         int[] entrada = {126, 15, 28, 17};
