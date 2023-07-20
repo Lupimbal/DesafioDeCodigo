@@ -13,13 +13,12 @@ public class Desafio2 {
     }
 
     public static int[] transformarVetor(int[] entrada) {
-        // 1. Colocar o vetor de entrada em ordem crescente
+       
         Arrays.sort(entrada);
 
-        // 2. Inicializar o vetor de saída com o mesmo tamanho da entrada
+       
         int[] saida = new int[entrada.length];
 
-        // 3. Calcular as diferenças e preencher o vetor de saída
         for (int i = 0; i < entrada.length; i++) {
             saida[i] = entrada[i] * (i + 1);
         }
